@@ -8,8 +8,8 @@ Instructions
 
   - Read [here](https://api.qualtrics.com/24d63382c3a88-api-quick-start) on how to get the values of `CLIENT_ID` and `CLIENT_SECRET`
 
-- In the `main.py` file, you can use the `get_` functions to download data. For example, `get_flow()` will download a file called `flow_download.py` in the main directory.
-
 - Run the app using a command such as `python main.py` or `python3 main.py`
 
-- Using the `get` functions will download parts of the survey. You can then edit the downloaded objects and send them back using the `update` functions
+- In the `main.py` file, you can use the `get_` functions to download data. For example, `get_flow()` will download a file called `flow_download.py` in the main directory.
+
+- Using the `get` functions will download parts of the survey. You can then edit the downloaded objects and send them back using the `put` functions
