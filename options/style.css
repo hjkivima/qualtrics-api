@@ -1,0 +1,146 @@
+h2 {
+  margin-bottom: 0.75em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+
+h4 {
+  /* margin-top: 1.5em; */
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+p {
+  margin-bottom: 0.75em;
+}
+
+.red {
+  font-weight: 700;
+  color: red;
+}
+
+ul {
+  margin-top: 0em !important;
+}
+
+ul.numbers {
+  margin-top: 0.5em !important;
+}
+
+.uppercase::first-letter {
+  text-transform: uppercase;
+}
+
+.track {
+  position: relative;
+  cursor: pointer;
+}
+
+.track::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: -150px;
+  bottom: -200px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+td.AnswerCell {
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .hide-for-mobile {
+    display: none !important;
+  }
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.numbers {
+  font-size: 0.9em;
+}
+
+.Skin {
+  position: relative !important;
+}
+
+.modal {
+  position: absolute;
+  background-color: white;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  padding: 0.5em 1em;
+}
+
+.close-modal-button {
+  padding: 0.5em 1em;
+  background-color: hsl(202, 100%, 38%);
+  color: white !important;
+  font-size: 1.5em !important;
+  border-radius: 7px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#NextButton {
+  padding: 0.5em 1em !important;
+  font-size: 2em !important;
+  font-weight: 700;
+}
+
+.Skin .QuestionOuter.Meta,
+.Skin .QuestionOuter.Timing {
+  display: none;
+}
+
+/* 
+:focus-visible {
+  outline: 1px solid red !important;
+} */
+
+ol.custom-counter {
+  counter-reset: list-counter;
+}
+
+ol.custom-counter li {
+  list-style: none;
+}
+
+ol.custom-counter li:before {
+  counter-increment: list-counter;
+  content: "(" counter(list-counter, lower-alpha) ")";
+  margin-right: 8px;
+}
+
+.redOnWhite {
+  font-weight: 700;
+  color: red;
+}
+
+label.SingleAnswer.q-checked .redOnWhite {
+  font-weight: 700;
+  color: red;
+  background-color: white;
+}
+
+.QuestionText {
+  padding-block: 0.5em !important;
+}
+
+.QuestionBody:not(:empty) {
+  padding-block-start: 1em !important;
+}
