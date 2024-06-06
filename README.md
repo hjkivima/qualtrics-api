@@ -8,7 +8,7 @@ Instructions
 
   - Read [here](https://api.qualtrics.com/24d63382c3a88-api-quick-start) on how to get the values of `CLIENT_ID` and `CLIENT_SECRET`
 
-- Run the app using a command such as `python main.py` or `python3 main.py`
+- Run the app using a command such as `python main.py`
 
 - In the `main.py` file, you can use the `get_` functions to download data. For example, `get_flow()` will download a file called `flow_download.py` in the main directory.
 
